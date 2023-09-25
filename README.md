@@ -2,7 +2,7 @@
 
 Submitted by: **Daniel Park**
 
-This web app: **insert description**
+This web app: **Community Travel Board**: a site that links free travel guides to popular destinations around the world. Travelling costs enough as is, why pay more for travel planning?
 
 Time spent: **3** hours spent in total
 
@@ -10,8 +10,8 @@ Time spent: **3** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
@@ -26,10 +26,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/TqHmKdm' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+If GIF is not rendering, please view via this link: https://imgur.com/a/TqHmKdm
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with [gifcap](https://gifcap.dev)  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -37,11 +39,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Getting each card component to behave correctly was difficult
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [CodePath]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
