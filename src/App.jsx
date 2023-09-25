@@ -4,8 +4,18 @@ import Card from './components/Card';
 
 import londonImage from './assets/london.jpg'
 import amsterdamImage from './assets/amsterdam.jpg'
-import viennaIamge from './assets/vienna.jpg'
-
+import viennaImage from './assets/vienna.jpg'
+import irelandImage from './assets/ireland.jpg'
+import belfastImage from './assets/beflast.jpg'
+import edinburghImage from './assets/edinburgh.jpg'
+import brugesImage from './assets/bruges.jpg'
+import luxembourgImage from './assets/luxembourg.jpg'
+import berlinImage from './assets/berlin.jpg'
+import copenhagenImage from './assets/copenhagen.jpg'
+import stockholmImage from './assets/stockholm.jpg'
+import helsinkiImage from './assets/helsinki.jpg'
+import tallinnImage from './assets/tallinn.jpg'
+import bergenImage from './assets/aurlandsfjord.jpg'
 
 const App = () => {
 
@@ -13,7 +23,7 @@ const App = () => {
     <div className="Card" >
       <h1>Travel Board</h1>
       <h2>Travel Planning shouldn't be difficult, or pricey. Leave the expenses for your flights and stay :)</h2>
-      <div className="card-image-container">
+      <div className="card-container">
         <Card 
           imageSrc={londonImage}
           title="London"
@@ -25,9 +35,64 @@ const App = () => {
           subtitle="Netherlands"
         />
         <Card 
-          imageSrc={viennaIamge}
+          imageSrc={viennaImage}
           title="Vienna"
           subtitle="Austria"
+        />
+        <Card 
+          imageSrc={irelandImage}
+          title="Dublin"
+          subtitle="Republic of Ireland"
+        />
+        <Card 
+          imageSrc={belfastImage}
+          title="Belfast"
+          subtitle="Northern Ireland"
+        />
+        <Card 
+          imageSrc={edinburghImage}
+          title="Edinburgh"
+          subtitle="Scotland"
+        />
+        <Card 
+          imageSrc={brugesImage}
+          title="Bruges"
+          subtitle="Belgium"
+        />
+        <Card 
+          imageSrc={luxembourgImage}
+          title="Luxembourg City"
+          subtitle="Luxembourg"
+        />
+        <Card 
+          imageSrc={berlinImage}
+          title="Berlin"
+          subtitle="Germany"
+        />
+        <Card 
+          imageSrc={copenhagenImage}
+          title="Copenhagen"
+          subtitle="Denmark"
+        />
+        <Card 
+          imageSrc={stockholmImage}
+          title="Stockholm"
+          subtitle="Sweden"
+        />
+        <Card 
+          imageSrc={helsinkiImage}
+          title="Helsinki"
+          subtitle="Finland"
+        />
+        <Card 
+          imageSrc={tallinnImage}
+          title="Tallinn"
+          subtitle="Estonia"
+        />
+        <Card 
+          imageSrc={bergenImage}
+          title="Bergen"
+          subtitle="Norway"
         />
       </div>
     </div>
