@@ -8,7 +8,7 @@ const Card = ({imageSrc, title, subtitle}) => {
                 <img src={imageSrc} alt={title} className="card-image"></img>
                 <h2 className="card-title">{title}</h2>
                 <h3 className="card-subtitle">{subtitle}</h3>
-                <button className="card-btn">View More</button>
+                <button className="card-btn">View Schedule</button>
             </div>
         </div>
     );
