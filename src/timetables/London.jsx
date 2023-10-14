@@ -2,9 +2,8 @@ import './Timetable.css'
 
 import React from "react";
 import Event from "./Event";
-import { useParams } from 'react-router-dom';
 
-const Timetable = () => {
+const London = () => {
 
     return (
         <div className="Timetable">
@@ -158,4 +157,4 @@ const Timetable = () => {
     )
 }
 
-export default Timetable;
+export default London;

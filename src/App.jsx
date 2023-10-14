@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Card from './components/Card';
+import Card from './Card';
 
 import londonImage from './assets/places/london.jpg'
 // import amsterdamImage from './assets/amsterdam.jpg'
