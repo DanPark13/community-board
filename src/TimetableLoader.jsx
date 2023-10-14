@@ -5,7 +5,7 @@ const TimetableLoader = () => {
   const { location } = useParams();
   
   const TimetableComponent = lazy(() =>
-    import(`./timetables/${location.charAt(0).toUpperCase() + location.slice(1)}.jsx`)
+    import(`timetables/${location.charAt(0).toUpperCase() + location.slice(1)}.jsx`)
       .catch(() => {
         throw new Error('Timetable not found');
       })

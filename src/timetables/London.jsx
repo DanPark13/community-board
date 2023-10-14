@@ -7,6 +7,8 @@ const London = () => {
 
     return (
         <div className="Timetable">
+            <h1>London</h1>
+            <p>The vibrant capital of the United Kingdom, blends rich historical landmarks with modern marvels, offering a tapestry of diverse and exciting experiences.</p>
             <table>
                 <thead>
                     <tr>
